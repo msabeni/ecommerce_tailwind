@@ -65,7 +65,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/main.css",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/main.css ",
     "watch": "tailwindcss -i ./src/input.css -o ./dist/main.css --watch"
   },
   "repository": {
