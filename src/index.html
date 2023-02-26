@@ -7,48 +7,68 @@
     <link rel="stylesheet" href="/dist/main.css">
     <title>K_ART</title>
 </head>
-<body class="box-border">
-    <div id="header" class="bg-blaze-orange">
-        <!--==== Nav Bar Start ====-->
-        <div id="container" class="max-w-screen-xl m-auto px-6">
-            <div id="navbar" class="flex items-center p-6">
-              <div class="logo">
-                    <img
-                    src="/images/art_logo2_ccexpress.png"
-                    alt="logo"
-                    width="200px"
-                    height="200px"
-                    />
-              </div>
-              <nav id="nav" class="flex-1 text-right">
-                <ul id="MenuItems nav-ul" class="inline-block mr-5 space-x-5 text-davys-gray">
-                  <li class="inline-block"><a href="index.html">Home</a></li>
-                  <li class="inline-block"><a href="products.html">Products</a></li>
-                  <li class="inline-block"><a href="">About</a></li>
-                  <li class="inline-block"><a href="">Contact</a></li>
-                  <li class="inline-block"><a href="login.html">Account</a></li>
-                </ul>
-              </nav>
-              <a href="cart.html">
-                <img
-                  src="/images/cart_ccexpress.png"
-                  alt="cart"
-                  width="30px"
-                  height="30px"
-                />
-              </a>
-              <img
-                src="/images/menu-icon_ccexpress.png"
-                alt="menu-icon"
-                id="menu-icon"
-                class="ml-5 hidden"
-                onclick="menutoggle()"
-                width="30px"
-                height="30px"
-                />
-            </div>
-            <!-- ==== End navbar ==== -->
+<body class="box-border font-Poppins">
+  <div id="header" class="bg-blaze-orange">
+    <!--==== Nav Bar Start ====-->
+    <div id="container" class="max-w-screen-xl m-auto px-6">
+      <div id="navbar" class="flex items-center p-6">
+        <div class="logo">
+          <img
+            src="/images/art_logo2_ccexpress.png"
+            alt="logo"
+            width="200px"
+            height="200px"
+          />
         </div>
+        <nav id="nav" class="flex-1 text-right">
+          <ul id="MenuItems nav-ul" class="inline-block mr-5 space-x-5 text-davys-gray ">
+            <li class="inline-block hover:text-white"><a href="index.html">Home</a></li>
+            <li class="inline-block hover:text-white"><a href="products.html">Products</a></li>
+            <li class="inline-block hover:text-white"><a href="">About</a></li>
+            <li class="inline-block hover:text-white"><a href="">Contact</a></li>
+            <li class="inline-block hover:text-white"><a href="login.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img
+            src="/images/cart_ccexpress.png"
+            alt="cart"
+            width="30px"
+            height="30px"
+          />
+        </a>
+        <img
+          src="/images/menu-icon_ccexpress.png"
+          alt="menu-icon"
+          id="menu-icon"
+          class="ml-5 hidden"
+          onclick="menutoggle()"
+          width="30px"
+          height="30px"
+        />
+      </div>
+      <!-- ==== End navbar ==== -->
+
+      <!-- ==== first section ==== -->
+      <div class="flex items-center flex-wrap justify-around">
+        <div class="basis-1/2 space-y-8">
+          <h1 class="text-5xl leading-snug font-bold m-6">
+            Welcome to K_ART. <br />
+            Buy my art !
+          </h1>
+          <p class="m-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br />
+            aliquam natus suscipit assumenda atque voluptatem !
+          </p>
+          <a href="#featured-products" id="btn" class="m-6 inline-block bg-ogre-orange text-white py-2 px-8 rounded-3xl transition ease-in-out hover:bg-royal-brown duration-500">Explore Now &#8594;</a>
+        </div>
+        <div class="basis-1/2">
+          <img class="max-w-full max-h-full py-20 px-0" src="/images/front_image1.jpg" alt="#" />
+        </div>
+      </div>
+      <!-- ==== end first section ==== -->
     </div>
+  </div>
 </body>
 </html>
